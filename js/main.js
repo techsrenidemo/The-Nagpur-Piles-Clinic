@@ -33,6 +33,23 @@
             });
         });
     });
+
+    // collapse behavior
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const navLinks = document.querySelectorAll(".nav-item.nav-link"); // All navigation links
+        const navbarToggler = document.querySelector(".navbar-toggler"); // Hamburger button
+        const navbarCollapse = document.querySelector("#navbarCollapse"); // Collapsible navbar menu
+
+        // Add click event listener to each navigation link
+        navLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                if (navbarCollapse.classList.contains("show")) {
+                    navbarToggler.click(); // Simulates a click on the hamburger to close the menu
+                }
+            });
+        });
+    });
     
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");

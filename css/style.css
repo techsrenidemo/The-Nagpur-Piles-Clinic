@@ -345,6 +345,8 @@ h6,
 
     nav.navbar.navbar-expand-lg.bg-white.navbar-light.shadow-sm.px-5.py-3.py-lg-0 {
         font-size: 10px;
+        display: inline-table;
+        align-items: center;
     }
 
     a.btn.btn-primary.py-md-3.px-md-5.me-3.animated.slideInLeft, a.btn.btn-secondary.py-md-3.px-md-5.animated.slideInRight {
