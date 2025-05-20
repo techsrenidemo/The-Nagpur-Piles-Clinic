@@ -136,12 +136,12 @@ h6,
 
 @media (max-width: 576px) {
     .carousel-caption h5 {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500 !important;
     }
 
     .carousel-caption h1 {
-        font-size: 30px;
+        font-size: 16px;
         font-weight: 600 !important;
     }
 }
@@ -333,4 +333,53 @@ h6,
 .accordion-body {
     font-size: 0.9rem;
     line-height: 1.5;
+}
+
+/* .................................................MOBILE CSS UPDATE................................................. */
+@media (max-width: 430px) {
+    
+    nav.navbar.navbar-expand-lg.bg-white.navbar-light.shadow-sm.px-5.py-3.py-lg-0 {
+    display: flex;
+    flex-wrap: nowrap;
+    }
+
+    nav.navbar.navbar-expand-lg.bg-white.navbar-light.shadow-sm.px-5.py-3.py-lg-0 {
+        font-size: 10px;
+    }
+
+    a.btn.btn-primary.py-md-3.px-md-5.me-3.animated.slideInLeft, a.btn.btn-secondary.py-md-3.px-md-5.animated.slideInRight {
+        margin-top: 5%;
+    }
+
+    .bg-primary.d-flex.flex-column.p-5 {
+        height: 200px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    h2.text-white.mb-0 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 20px !important;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 15px !important;
+    }
+
+    h1.display-1.text-white.mb-md-4.animated.zoomIn {
+        font-size: 17.5px !important;
+    }
+
+    p.fs-5 {
+        font-size: 15px !important;
+    }
 }
