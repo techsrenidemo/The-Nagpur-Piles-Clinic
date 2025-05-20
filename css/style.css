@@ -335,6 +335,10 @@ h6,
     line-height: 1.5;
 }
 
+div#team-section {
+    margin-bottom: 9%;
+}
+
 /* .................................................MOBILE CSS UPDATE................................................. */
 @media (max-width: 430px) {
     
