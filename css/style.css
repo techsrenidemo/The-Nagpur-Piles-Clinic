@@ -396,4 +396,8 @@ div#team-section {
     a.btn.btn-primary.py-2.px-4.ms-3 {
         margin-left: 0rem !important;
     }
+
+    h5.experts.position-relative.d-inline-block.text-primary.text-uppercase {
+        margin-left: -72px;
+    }
 }
