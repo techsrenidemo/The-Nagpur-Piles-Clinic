@@ -347,9 +347,9 @@ div#team-section {
     flex-wrap: nowrap;
     } */
 
-    nav.navbar.navbar-expand-lg.bg-white.navbar-light.shadow-sm.px-5.py-3.py-lg-0 {
+    nav.navbar.navbar-expand-lg.bg-white.navbar-light.shadow-sm.px-4.py-3.py-lg-0 {
         font-size: 10px;
-        display: inline-table;
+        display: flex;
         align-items: center;
     }
 
@@ -389,9 +389,9 @@ div#team-section {
         font-size: 15px !important;
     }
 
-    /* div#contact-section {
+    div#contact-section {
         margin-top: 0px !important;
-    } */
+    }
 
     a.btn.btn-primary.py-2.px-4.ms-3 {
         margin-left: 0rem !important;
