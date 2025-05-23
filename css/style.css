@@ -350,7 +350,7 @@ div#team-section {
     nav.navbar.navbar-expand-lg.bg-white.navbar-light.shadow-sm.px-5.py-3.py-lg-0 {
         font-size: 10px;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-between;
     }
 
