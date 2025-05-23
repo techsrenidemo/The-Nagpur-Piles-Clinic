@@ -347,7 +347,7 @@ div#team-section {
     flex-wrap: nowrap;
     } */
 
-    nav.navbar.navbar-expand-lg.bg-white.navbar-light.shadow-sm.px-4.py-3.py-lg-0 {
+    nav.navbar.navbar-expand-lg.bg-white.navbar-light.shadow-sm.px-5.py-3.py-lg-0 {
         font-size: 10px;
         display: inline-table;
         align-items: center;
