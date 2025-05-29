@@ -47,7 +47,6 @@
     </div>
     <!-- Spinner End -->
 
-
     <!-- Topbar Start -->
     <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
         <div class="row gx-0">
@@ -92,7 +91,6 @@
 
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0" id="home-section">
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -104,7 +102,7 @@
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Consult Dr. Anissa Begum – Piles Specialist</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Freedom From Piles Starts Here</h1>
                             <a href="#form-section" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Appointment</a>
-                            <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                            <a href="#contact-section" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -283,7 +281,7 @@
                                 <div class="col-12 col-sm-12">
                                     <textarea class="form-control bg-light border-0" id="message" placeholder="Description" style="height: 55px;"></textarea>
                                 </div>
-<!--                                 <div class="col-12 col-sm-6">
+                            <!--<div class="col-12 col-sm-6">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control bg-light border-0 datetimepicker-input"
@@ -389,13 +387,13 @@
                 <div class="col-lg-7">
                     <div class="owl-carousel testimonial-carousel rounded p-5 wow zoomIn" data-wow-delay="0.6s">
                         <div class="testimonial-item text-center text-white">
-<!--                             <img class="img-fluid mx-auto rounded mb-4" src="img/testimonials.jpg" alt=""> -->
+                        <!--<img class="img-fluid mx-auto rounded mb-4" src="img/testimonials.jpg" alt=""> -->
                             <p class="fs-5">I was embarrassed to talk about it, but the staff here made me feel very comfortable. Highly recommended!”</p>
                             <hr class="mx-auto w-25">
                             <h4 class="text-white mb-0">Sneha M.</h4>
                         </div>
                         <div class="testimonial-item text-center text-white">
-<!--                             <img class="img-fluid mx-auto rounded mb-4" src="img/testimonials.jpg" alt=""> -->
+                        <!--<img class="img-fluid mx-auto rounded mb-4" src="img/testimonials.jpg" alt=""> -->
                             <p class="fs-5">“I was suffering for years. Dr. Anissa Begum’s treatment changed my life in just a few visits!”</p>
                             <hr class="mx-auto w-25">
                             <h4 class="text-white mb-0">Rahul S.</h4>
@@ -532,12 +530,8 @@
     <div class="container-fluid text-light py-4" style="background: #051225;">
         <div class="container">
             <div class="row g-0">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#">The Nagpur Piles Clinic</a>. All Rights Reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-white border-bottom" href="https://techsreni.com">TechSreni</a>             
-                    </p>
+                <div class="col-md-12 text-center">
+                    <p class="mb-md-0">&copy; <a class="text-white border-bottom" href="#home-section">The Nagpur Piles Clinic</a>. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -547,6 +541,20 @@
 
     <!-- Back to Top -->
     <a href="#home-section" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Google Translate Widget -->
+    <select id="languageSwitcher" onchange="translateLanguage()">
+        <option value="en">English</option>
+        <option value="mr">Marathi</option>
+    </select>
+    
+    <script>
+        function translateLanguage() {
+            var language = document.getElementById('languageSwitcher').value;
+            window.location.href = 'https://translate.google.com/translate?sl=auto&tl=' + language + '&u=' + encodeURIComponent(window.location.href);
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 
     <!-- JavaScript Libraries -->
@@ -564,6 +572,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
 </body>
 
 </html>
